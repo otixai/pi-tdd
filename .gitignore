@@ -1,0 +1,23 @@
+.idea/
+*.iml
+target/
+
+.classpath
+.project
+bin/
+.settings/
+
+# Gradle
+.gradle
+/build/
+
+# Agent runtime state
+.omc/
+.harness/
+.claude/settings.local.json
+
+# Node
+node_modules/
+
+# macOS
+.DS_Store

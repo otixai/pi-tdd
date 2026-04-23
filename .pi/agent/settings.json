@@ -1,0 +1,4 @@
+{
+  "defaultProvider": "openrouter",
+  "defaultModel": "minimax/minimax-m2.5"
+}

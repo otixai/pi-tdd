@@ -1,0 +1,18 @@
+{
+  "name": "pi-tdd-harness",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Adversarial TDD harness for pi: Red writes failing tests, Blue makes them pass, neither can touch the other's files.",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@mariozechner/pi-coding-agent": "^0.69.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.1.0"
+  }
+}
